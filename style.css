@@ -1,0 +1,298 @@
+* {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+}
+.ct {
+  margin: 50px 150px;
+}
+.icon {
+  height: 60px;
+  float: left;
+}
+.sm-head,.head h2 {
+  text-align: center;
+  padding: 1rem;
+  background-color: aliceblue;
+}
+.heading {
+  height: 8rem;
+  text-align: center;
+  display: block;
+  background-color: rgba(11, 18, 112, 0.767);
+  color: rgb(255, 255, 255);
+  margin: 0rem;
+  padding: 1rem;
+  background-image: url("../Mega Project/images/books.jpg");
+  background-size: cover;
+  background-position: top;
+  backdrop-filter: blur(190px); /*not working*/
+  background-attachment: fixed;
+}
+h3 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+/*{ NAVBAR AND FOOTER }*/
+
+nav ul, footer ul {
+  height: 50px;
+  display: flex;
+  background-color: aliceblue;
+  align-items: center;
+  margin: 0;
+}
+nav a, footer a{
+  margin: 1rem;
+  text-decoration: none;
+  font-size: large;
+  color: rgb(40, 38, 44);
+}
+/*{ SCHLORSHIP TEST GOING ON}*/
+.scholar {
+  height: 260px;
+  width: 80%;
+  background-color: orangered;
+  color: white;
+  font-size: x-large;
+  border-radius: 0 3rem 3rem 0;
+  margin: 2rem 0;
+}
+.scholar img {
+  height: 10rem;
+  float: right;
+}
+/*nav{
+  position: fixed; //{ Set the navbar to fixed position }
+  top: 0; //Position the navbar at the top of the page 
+  width: 100%; // Full width {}could be better on applying js 
+}*/
+
+.Courses {
+  overflow: hidden;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+  align-items: center;
+  /* align-content: space-around; */
+  row-gap: 1rem;
+}
+.cs {
+  height: 100px;
+  width: 27%;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: larger;
+  padding: 2rem;
+}
+.cs-1,
+.sm-6 {
+  background-color: rgb(165, 190, 212);
+}
+.cs-2,
+.sm-2 {
+  background-color: rgb(152, 127, 172);
+}
+.cs-3 {
+  background-color: rgb(172, 127, 152);
+}
+.cs-4,
+.sm-4 {
+  background-color: rgb(155, 172, 127);
+}
+.cs-5,
+.sm-3 {
+  background-color: rgb(172, 160, 127);
+}
+.cs-6,
+.sm-7 {
+  background-color: rgb(127, 172, 144);
+}
+.cs-7,
+.sm-1 {
+  background-color: rgba(113, 187, 142, 0.925);
+}
+.cs-8 {
+  background-color: rgb(106, 173, 204);
+}
+.cs-9,
+.sm-5 {
+  background-color: rgba(146, 78, 78, 0.685);
+}
+.of-text{
+  text-align: center;
+}
+.of-content {
+  margin: 4rem 0;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.offers img {
+  height: 10rem;
+  width: 10rem;
+  float: right;
+}
+.of {
+  height: 180px;
+  width: 450px;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgba(14, 101, 231, 0.808);
+  border-radius: 0.5rem;
+}
+
+.global {
+  background-color: rgb(230, 230, 208);
+}
+.w_img,
+.w_img img {
+  height: 28rem;
+  float: right;
+  /* display: block; */
+  width: 80%;
+}
+.global {
+  background-color: rgb(219 249 246 / 44%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.w_text {
+  display: flex;
+  margin: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.material {
+  clear: both;
+}
+.study_material {
+  display: flex;
+  /* flex-wrap: wrap; */
+  overflow: hidden;
+  align-items: center;
+}
+.sm {
+  display: flex;
+  height: 225px;
+  width: 30%;
+  color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sm-img img {
+  height: 95px;
+  width: 95px;
+  border-radius: 30rem;
+  margin: 0;
+  background-size: cover;
+  border: 3px solid rgb(255 243 243);
+}
+.main {
+  height: 450px;
+  display: block;
+  margin: 4rem;
+}
+.contact {
+  margin-left: 30rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  row-gap: 1rem;
+  /* align-content: stretch; */
+}
+.main img {
+  height: 25rem;
+  width: 25rem;
+  float: left;
+}
+.contact img {
+  height: 4rem;
+  width: 12rem;
+}
+.founder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 1px #cfc3c3 solid;
+}
+.founder img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10px;
+}
+.socials {
+  display: flex;
+  width: 20%;
+  font-size: 1.5rem;
+  justify-content: space-around;
+}
+p {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+footer {
+  position: absolute 1px;
+  background-color: aliceblue;
+}
+
+
+/* {ALL HOVER EFFECTS}*/
+li a:hover {
+  color: rgb(131, 128, 128);
+  font-size: larger;
+}
+.cs:hover,
+.sm:hover {
+  box-shadow: 1px 2px 4px 3px rgb(82 82 78);
+}
+.fa-brands:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.5);
+  /* <i class="fa-brands fa-square-facebook fa-flip" style="color: #5286e0;"></i> flip action */
+}
+.ml:hover {
+  background-color: rgb(46, 236, 46);
+}
+
+/*{MEDIA QUERY}*/
+
+@media screen and (max-width: 700px) {
+  * {
+    padding: 0;
+    overflow: hidden;
+  }
+  nav ul,
+  footer ul {
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    height: auto;
+  }
+  li {
+    text-align: center;
+    width: 114%;
+    height: 35px;
+    border: 1px solid rgb(180, 176, 176);
+}
+}
